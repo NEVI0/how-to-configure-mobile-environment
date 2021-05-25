@@ -9,23 +9,23 @@
 
 If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-env-variables-configuration)**.
 
-- **Gradle**
+#### **Gradle**
 
 Create a new directory `C:\Gradle` with File Explorer.
 
 Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-<VERSION>` to your newly created `C:\Gradle folder`.
 
-- **Android Studio**
+#### **Android Studio**
 
 After Android Studio installetion, open it and then go to `Configure > SDK Manager`.
 
 Then, go to `SDK Tools` and download:
-    - **Android SDK Build-Tools**
-    - **Android SDK Command-line Tools**
-    - **CMake**
-    - **Android Emulator** (OPTIONAL)
-    - **Android SDK Platform-Tools**
-    - **Google USB Driver**
+- **Android SDK Build-Tools**
+- **Android SDK Command-line Tools**
+- **CMake**
+- **Android Emulator** (OPTIONAL)
+- **Android SDK Platform-Tools**
+- **Google USB Driver**
 
 
 ### :pencil: Env Variables Configuration
