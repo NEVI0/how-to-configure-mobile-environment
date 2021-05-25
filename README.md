@@ -4,18 +4,19 @@
 - Install **[Java JRE](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB)** in your computer;
 - Install **[Gradle](https://gradle.org/install/)** in your computer;
 - Install **[Android Studio](https://developer.android.com/studio)** in your computer;
+- Install **[Git](https://git-scm.com/downloads)** in your computer;
 
 ### :floppy_disk: Programs Configuration
 
 If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-env-variables-configuration)**.
 
-#### **Gradle**
+#### :small_orange_diamond: **Gradle**
 
 Create a new directory `C:\Gradle` with File Explorer.
 
 Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-<VERSION>` to your newly created `C:\Gradle folder`.
 
-#### **Android Studio**
+#### :small_orange_diamond: **Android Studio**
 
 After Android Studio installation, open it and then go to `Configure > SDK Manager`.
 
