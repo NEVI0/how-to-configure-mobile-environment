@@ -6,17 +6,15 @@
 - Install **[Android Studio](https://developer.android.com/studio)** in your computer;
 - Install **[Git](https://git-scm.com/downloads)** in your computer;
 
-### :floppy_disk: Programs Configuration
-
 If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-env-variables-configuration)**.
 
-#### :small_orange_diamond: **Gradle**
+### :small_orange_diamond: Gradle Configuration
 
 Create a new directory `C:\Gradle` with File Explorer.
 
 Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-<VERSION>` to your newly created `C:\Gradle folder`.
 
-#### :small_orange_diamond: **Android Studio**
+### :small_orange_diamond: Android Studio Configuration
 
 After Android Studio installation, open it and then go to `Configure > SDK Manager`.
 
@@ -28,28 +26,15 @@ Then, go to `SDK Tools` and download:
 - **Android SDK Platform-Tools**
 - **Google USB Driver**
 
+### :pencil: Environment Variables Configuration
 
-### :pencil: Env Variables Configuration
+For this configuration, go to `Update Operation System Environment Variables > Environment Variables > System Environments` and then:
 
-- Android Studio:
-```
-Name: ANDROID_HOME
-Path: C:\Users\<USER>\AppData\Local\Android\Sdk
-```
+- Create a new variable called **ANDROID_HOME** with the path of **Android SDK**: `C:\Users\<USER>\AppData\Local\Android\Sdk`
+- Create a new variable called **JAVA_HOME** with the path of **Java JDK**: `C:\Program Files\Java\<JDK_VERSION>`
+- Create a new variable called **JRE_HOME** with the path of **Java JRE**: `C:\Program Files\Java\<JRE_VERSION>`
 
-- Java Development Kit:
-```
-Name: JAVA_HOME
-Path: C:\Program Files\Java\<JDK_VERSION>
-```
-
-- Java Runtime Environment:
-```
-Name: JRE_HOME
-Path: C:\Program Files\Java\<JRE_VERSION>
-```
-
-- OS Path:
+Now, edit **Operation System Path Variable** and add the **/bin** folders of the programs:
 ```
 ~ C:\Program Files\Java\<JDK_VERSION>\bin
 ~ C:\Gradle\<GRADLE_VERSION>\bin
