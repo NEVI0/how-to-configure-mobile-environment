@@ -17,7 +17,7 @@ Open a second File Explorer window and go to the directory where the Gradle dist
 
 #### **Android Studio**
 
-After Android Studio installetion, open it and then go to `Configure > SDK Manager`.
+After Android Studio installation, open it and then go to `Configure > SDK Manager`.
 
 Then, go to `SDK Tools` and download:
 - **Android SDK Build-Tools**
