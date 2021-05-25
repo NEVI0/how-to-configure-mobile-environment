@@ -1,7 +1,6 @@
 ### :beginner: Programs to Install
 
 - Install **[Java JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)** in your computer;
-- Install **[Java JRE](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB)** in your computer;
 - Install **[Gradle](https://gradle.org/install/)** in your computer;
 - Install **[Android Studio](https://developer.android.com/studio)** in your computer;
 - Install **[Git](https://git-scm.com/downloads)** in your computer;
