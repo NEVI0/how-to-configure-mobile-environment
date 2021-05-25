@@ -5,9 +5,9 @@
 - Install **[Gradle](https://gradle.org/install/)** in your computer;
 - Install **[Android Studio](https://developer.android.com/studio)** in your computer;
 
-### Programs Configuration
+### :floppy_disk: Programs Configuration
 
-:warning: If you already configured the programs, just go to **Env Variables Configuration**.
+If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-env-variables-configuration)**.
 
 - **Gradle**
 
