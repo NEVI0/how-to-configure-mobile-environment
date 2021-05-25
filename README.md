@@ -12,7 +12,7 @@ If you already configured the programs, just go to **[Env Variables Configuratio
 
 Create a new directory `C:\Gradle` with File Explorer.
 
-Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `gradle-<VERSION>` to your newly created `C:\Gradle folder`.
+Open a second File Explorer window and go to the directory where the Gradle distribution was downloaded. Double-click the ZIP archive to expose the content. Drag the content folder `/gradle-<VERSION>` to your newly created `C:\Gradle folder`.
 
 ### :small_orange_diamond: Android Studio Configuration
 
