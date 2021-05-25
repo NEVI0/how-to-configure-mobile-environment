@@ -6,7 +6,7 @@
 - Install **[Android Studio](https://developer.android.com/studio)** in your computer;
 - Install **[Git](https://git-scm.com/downloads)** in your computer;
 
-If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-env-variables-configuration)**.
+If you already configured the programs, just go to **[Env Variables Configuration](https://github.com/NEVI0/how-to-configure-mobile-environment#pencil-environment-variables-configuration)**.
 
 ### :small_orange_diamond: Gradle Configuration
 
@@ -34,12 +34,11 @@ For this configuration, go to `Update Operation System Environment Variables > E
 - Create a new variable called **JAVA_HOME** with the path of **Java JDK**: `C:\Program Files\Java\<JDK_VERSION>`
 - Create a new variable called **JRE_HOME** with the path of **Java JRE**: `C:\Program Files\Java\<JRE_VERSION>`
 
-Now, edit **Operation System Path Variable** and add the **/bin** folders of the programs:
-```
-~ C:\Program Files\Java\<JDK_VERSION>\bin
-~ C:\Gradle\<GRADLE_VERSION>\bin
-~ C:\Users\<USER>\AppData\Local\Android\Sdk\platform-tools
-~ C:\Users\<USER>\AppData\Local\Android\Sdk\build-tools\<VERSION>
-```
+Now, edit **Operation System Path Variable** and add the `/bin` folders of the programs:
+
+- `C:\Program Files\Java\<JDK_VERSION>\bin`
+- `C:\Gradle\<GRADLE_VERSION>\bin`
+- `C:\Users\<USER>\AppData\Local\Android\Sdk\platform-tools`
+- `C:\Users\<USER>\AppData\Local\Android\Sdk\build-tools\<VERSION>`
 
 *By [Névio Costa Magagnin](https://www.linkedin.com/in/n%C3%A9vio-magagnin-045710177/)*
