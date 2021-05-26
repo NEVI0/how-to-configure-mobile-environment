@@ -25,6 +25,19 @@ Then, go to `SDK Tools` and download:
 - **Android SDK Platform-Tools**
 - **Google USB Driver**
 
+### :small_orange_diamond: Git Configuration
+
+If you want, you can follow step by step in this **[video](https://www.youtube.com/watch?v=7YVQLZp1jb0)**.
+
+- First of all, generate a new SSH Key:
+```
+~ ssh-keygen -t rsa -b 4096 -C "<YOUR_GITHUB_EMAIL>"
+```
+
+The key is created in `C:\Users\<USER>\.ssh`. After just press **ENTER** for all steps.
+
+In **GitHub**, go to `Settings > SSH and GPG Keys > New SSH Key`, provide a title for the key and **copy / paste (INTERE KEY)** your generated key in the field.
+
 ### :pencil: Environment Variables Configuration
 
 For this configuration, go to `Update Operation System Environment Variables > Environment Variables > System Environments` and then:
