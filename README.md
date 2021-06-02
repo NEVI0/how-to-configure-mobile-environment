@@ -42,7 +42,7 @@ In **GitHub**, go to `Settings > SSH and GPG Keys > New SSH Key`, provide a titl
 ```
 ~ git config --global user.name "<GITHUB_NAME>"
 
-~ git config --global user.email  "<GITHUB_EMAIL>"
+~ git config --global user.email "<GITHUB_EMAIL>"
 ```
 
 ### :pencil: Environment Variables Configuration
