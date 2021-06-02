@@ -38,6 +38,13 @@ The key is created in `C:\Users\<USER>\.ssh`. After just press **ENTER** for all
 
 In **GitHub**, go to `Settings > SSH and GPG Keys > New SSH Key`, provide a title for the key and **copy / paste (INTERE KEY)** your generated key in the field.
 
+- Then, add your **GitHub** name and e-mail:
+```
+~ git config --global user.name "<GITHUB_NAME>"
+
+~ git config --global user.email  "<GITHUB_EMAIL>"
+```
+
 ### :pencil: Environment Variables Configuration
 
 For this configuration, go to `Update Operation System Environment Variables > Environment Variables > System Environments` and then:
